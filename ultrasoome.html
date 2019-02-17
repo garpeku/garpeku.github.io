@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Suomi/etkari veebileht</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.hero-image {
+  background-image: url("https://i.imgur.com/PaBanmu.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1200px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+* {
+  box-sizing: border-box;
+  font-family:comic sans ms;
+}
+
+body {
+  margin: 0;
+  font-family: comic sans ms;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+}
+
+.header {
+  padding-top: 17px
+}
+
+.button1 {
+  font-family: comic sans ms;
+  border: 2px solid darkviolet;
+  border-radius: 4px;
+  color: darkviolet;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+.button2 {
+  font-family: comic sans ms;
+  border: 2px solid crimson;
+  border-radius: 4px;
+  color: crimson;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.button3 {
+  font-family: comic sans ms;
+  border: 2px solid gold;
+  border-radius: 4px;
+  color: gold;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.button4 {
+  font-family: comic sans ms;
+  border: 2px solid #f88379;
+  border-radius: 4px;
+  color: #f88379;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.button5 {
+  font-family: comic sans ms;
+  border: 2px solid #FBEA74;
+  border-radius: 4px;
+  color: #FBEA74;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.button6 {
+  font-family: comic sans ms;
+  border: 2px solid #39ff14;
+  border-radius: 4px;
+  color: #39ff14;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.button7 {
+  font-family: comic sans ms;
+  border: 2px solid #cc0000;
+  border-radius: 4px;
+  color: #cc0000;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.button8 {
+  font-family: comic sans ms;
+  border: 2px solid blue;
+  border-radius: 4px;
+  color: blue;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.button9 {
+  font-family: comic sans ms;
+  border: 2px solid #e45252;
+  border-radius: 4px;
+  color: #e45252;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.button10 {
+  font-family: comic sans ms;
+  border: 2px solid red;
+  border-radius: 4px;
+  color: red;
+  padding: 1px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.button1:hover {
+  background-color: darkviolet;
+  color: white;
+}
+
+.button2:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.button3:hover {
+  background-color: gold;
+  color: white;
+}
+
+.button4:hover {
+  background-color: #f88379;
+  color: white;
+}
+
+.button5:hover {
+  background-color: #FBEA74;
+  color: white;
+}
+
+.button6:hover {
+  background-color: #39ff14;
+  color: white;
+}
+
+.button7:hover {
+  background-color: #cc0000;
+  color: white;
+}
+
+.button8:hover {
+  background-color: blue;
+  color: white;
+}
+
+.button9:hover {
+  background-color: #e45252;
+  color: white;
+}
+
+.button10:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  font-family:comic sans ms;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  padding-left: 35px;
+}
+
+/* Style the footer */
+.footer {
+  font-family:comic sans ms;
+  padding: 10px;
+  padding-left: 15px;
+}
+</style>
+</head>
+<body>
+<div class="hero-image">
+<div class="header">
+<div class="topnav">
+  <a href="index.html">KODU</a>
+  <a href="ultradoom.html">DOOM</a>
+  <a href="ultraecs.html">ECSTV</a>
+  <a href="ultrasoome.html">G.F.H.L.A.A.A.A.</a>
+</div>
+
+<div class="content">
+  <h2 align=center><span style="color:red">Group For</span> <span style="color:orange">Homos,</span> <span style="color:gold">Lesbians,</span> <span style="color:green">Asexuals</span> <span style="color:dodgerblue">And All</span> <span style="color:darkviolet">Alike</span></h2>
+  <h3>G.F.H.L.A.A.A.A. on eepiline kümnest <br /> inimesest koosnev grupp.</h3>
+  <p>Grupp oli loodud 11.juunil 2018.aaastal ja algul oli seal 7 isikut.<br />
+  <ul>Grupi koosseisus on:
+  <li><a class="button1" href="">Vinku</a> (FIN)</li>
+  <li><a class="button2" href="">Vascor</a> (FIN)</li>
+  <li><a class="button3" href=""><strike>gar</strike> Peku</a> (EESTI MASTERRACE)</li>
+  <li><a class="button4" href="">Psycho</a> (FIN)</li>
+  <li><a class="button5" href="">Cubesa</a> (FIN)</li>
+  <li><a class="button6" href="">North</a> (FIN/SWE lul)</li>
+  <li><a class="button7" href="">Phoe</a> (FIN)</li>
+  <li><a class="button8" href="">Blue</a> (FIN)</li>
+  <li><a class="button9" href="">Winter</a> (SWE)</li>
+  <li><a class="button10" href="">Nemo</a> (SWE)</li>
+  </ul>
+  
+  </p>
+</div>
+
+<div class="footer">
+  <p>etkar tegi. 2019 kõik õigused puuduvad, kuna etkaril pole kodakonsust</p>
+</div>
+</div>
+</div>
+</body>
+</html>
